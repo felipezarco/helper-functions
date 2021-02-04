@@ -1,0 +1,44 @@
+{
+  "name": "node-fn",
+  "version": "0.0.1",
+  "description": "Daily usage Helper Functions for Node.js",
+  "main": "index.js",
+  "types": "index",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "keywords": [
+    "fn",
+    "functions",
+    "helper",
+    "helpers",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Luiz Felipe Zarco <felipezarco@hotmail.com> (https://github.com/felipezarco)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/felipezarco/node-fn"
+  },
+  "bugs": {
+    "url": "https://github.com/felipezarco/node-fn/issues"
+  },
+  "homepage": "https://github.com/felipezarco/node-fn#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/supertest": "^2.0.9",
+    "coveralls": "^3.1.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}

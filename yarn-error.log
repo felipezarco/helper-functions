@@ -1,0 +1,74 @@
+Arguments: 
+  /usr/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarn.js
+
+PATH: 
+  /home/felipezarco/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2020.812.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/felip/AppData/Roaming/npm:/mnt/c/Users/felip/AppData/Local/Yarn/bin:/mnt/c/Users/felip/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/felip/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/felip/.deno/bin:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  15.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/felipezarco/node-fn/package.json: Unexpected token ] in JSON at position 488
+      at JSON.parse (<anonymous>)
+      at /mnt/c/Program Files (x86)/Yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:310:30)
+      at /mnt/c/Program Files (x86)/Yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "node-fn",
+    "version": "0.0.1",
+    "description": "Daily usage Helper Functions for Node.js",
+    "main": "index.js",
+    "types": "index",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest",
+      "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    },
+    "files": [
+      "index.d.ts",
+      "index.js",
+      "README.md",
+      "LICENSE.md"
+    ],
+    "keywords": [
+      "fn",
+      "functions",
+      "helper",
+      "helpers",
+      "javascript",
+      "typescript",
+    ],
+    "author": "Luiz Felipe Zarco <felipezarco@hotmail.com> (https://github.com/felipezarco)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/felipezarco/node-fn"
+    },
+    "bugs": {
+      "url": "https://github.com/felipezarco/node-fn/issues"
+    },
+    "homepage": "https://github.com/felipezarco/node-fn#readme",
+    "devDependencies": {
+      "@types/jest": "^26.0.20",
+      "@types/supertest": "^2.0.9",
+      "coveralls": "^3.1.0",
+      "jest": "^26.6.3",
+      "ts-jest": "^26.4.4",
+      "typescript": "^4.1.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
